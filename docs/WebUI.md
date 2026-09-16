@@ -266,6 +266,8 @@ Chain Reaction mode allows you to select an event which will be launched automat
 
 You can optionally select different events to run if the current job succeeds or fails.  For example, you may have a special error handling / notification event, which needs to run upon specific event failures.
 
+The target event must be enabled for a chain reaction to run.  Disabling the target event skips both success and failure chains to it, without launching or queuing a job.  You can still run a disabled event manually using **Run Now**.
+
 You can have more control over this process by using the JSON API in your Plugins.  See [Chain Reaction Control](Plugins.md#chain-reaction-control) below for details.
 
 #### Event Time Machine
