@@ -1,5 +1,12 @@
 # Cronicle Changelog
 
+## Version v0.9.134
+
+> September 16, 2026
+
+- [`707fb43`](https://github.com/jhuckaby/cronicle/commit/707fb43374b8d5b1feb58abdf4e7c1cb73d1d982): Version 0.9.134
+- [`90be072`](https://github.com/jhuckaby/cronicle/commit/90be072c3dd620c7975bd478a6f0f4e6f83e68ee): Bug Fix: Chained event runs even though it is disabled.  Fixes #806.
+
 ## Version v0.9.133
 
 > September 10, 2026
